@@ -1,2 +1,15 @@
-# durham_mds
-2324 Research Project of Master in Data Science in Durham University, UK
+
+# 23/24 Durham University MDS Research Project
+  
+### Project Name
+Data Science Skills on a Flow Reactor
+
+### Students Info
+* Qifan Lin
+* Yurim Yang
+
+### Supervisor  
+Ian Baxendale
+
+### Working Environment
+
