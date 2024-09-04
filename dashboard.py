@@ -503,6 +503,7 @@ def main():
         try:
             pivot_df = pd.pivot_table(raw_df, columns="wavelength", index="volume(mm)", values="absorbance")
             st.pyplot(check_the_plot(pivot_df, "Raw Data"))
+
             st.session_state.pivot_df = pivot_df
             # Select the range of wavelength to analyse.
             st.session_state.selected_wavelength = get_wl_range(st.session_state.pivot_df)
@@ -547,12 +548,9 @@ def main():
 
         except:
             st.error(f"There is no file selected.", icon="⚠️") 
-
-
-    # Restart the analysis if clicking "Restart" button.
-    if st.button("Restart"):
-        for key in st.session_state.keys():
-            st.session_state[key] = None
+   
+    if st.session_state.selected_option != option:
+        st.session_state.selected_option = option
         st.rerun()
 
 
