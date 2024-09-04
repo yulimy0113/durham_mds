@@ -34,3 +34,5 @@ Python 3.11
 1. Download all the files in the same directory.
 2. Run the "dashboard.py" using Termonal.
 3. Run code: streamlit run FILE_PATH/dashboard.py
+4. Upload 'sample_pKa_data.xlsx' if selecting 'New file',
+   Select one of the file in the list if selecting 'Existing file'.
