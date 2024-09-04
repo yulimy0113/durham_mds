@@ -30,3 +30,7 @@ Python 3.11
  - googleapiclient 2.136.0
  
  
+### How to
+1. Download all the files in the same directory.
+2. Run the "dashboard.py" using Termonal.
+3. Run code: streamlit run FILE_PATH/dashboard.py
